@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments :: html_head"/>
+	<body>
+		<div th:replace="fragments :: header">
+		</div>
+		<div class="container">
+			<div class="text-center">
+				<h2> Contact Us</h2>
+				<h3 th:text=" 'Thank you ' + ${pholder} + ' for contacting us. We are delighted to attend to you soon.' "></h3>
+			</div>
+			
+		</div>
+		<div th:replace="fragments :: footer">
+		</div>
+	</body>
+</html>
